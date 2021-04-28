@@ -94,6 +94,9 @@ a:hover::after {
     margin-top: 20px;
     text-align: center;
   }
+  a::after {
+    content: none;
+  }
 }
 
 .nav-active {
