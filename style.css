@@ -3,17 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  overflow: hidden;
-}
+
 .header {
   display: flex;
   justify-content: space-around;
   height: 70px;
   z-index: 999;
-  position: sticky;
-  top: 0px;
-  background-color: aquamarine;
+  position: relative;
   width: 100%;
 }
 
@@ -85,7 +81,7 @@ a:hover::after {
     height: 40vh;
     z-index: -1;
     transform: translateY(-200%);
-    transition: transform 0.5s ease-in;
+    transition: transform 0.3s ease-in-out;
     flex-direction: column;
   }
   .nav-links li {
@@ -111,4 +107,146 @@ a:hover::after {
 }
 .toogle .bar-3 {
   transform: rotate(45deg) translate(-22px, 8px);
+}
+
+/* -------------------[Menu Section]------------------------ */
+.menu {
+  background-image: url("./Images/back.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 80vh;
+  position: relative;
+  top: -70px;
+}
+
+.main-heading {
+  position: absolute;
+  top: 288px;
+  right: 265px;
+  padding: 50px;
+  font-size: 5rem;
+}
+.btn {
+  margin-left: 10px;
+  font-size: 1.3rem;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #dec0f1;
+  transition: all 0.2s;
+}
+.btn:active {
+  transform: scale(0.95);
+}
+
+/* ----------------------[Why choose us]-------------------------- */
+
+.heading > h2 {
+  text-align: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  line-height: 2;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+}
+
+.container .right-c img {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.container .left-c {
+  padding: 30px;
+  font-size: 1.5rem;
+  margin-top: 7px;
+  line-height: 2;
+  letter-spacing: 3px;
+}
+
+.chooseus-points {
+  margin-top: 36px;
+}
+.chooseus-points li {
+  list-style: disc;
+}
+
+.container .left-c p span {
+  padding: 50px;
+  margin-bottom: 10px;
+}
+
+/* ------------------------------[we provide better service section]------------------------------------ */
+
+.services-image {
+  display: flex;
+  padding: 0px 50px;
+}
+
+.our-services .heading h2 {
+  margin-bottom: 80px;
+}
+.box {
+  cursor: pointer;
+  display: inline-block;
+  height: 540px;
+  margin-left: 100px;
+}
+.box img {
+  height: 450px;
+  position: absolute;
+  border-radius: 40px;
+  width: 671px;
+}
+
+.box .hidden-text {
+  position: relative;
+  /* padding: 0px 841px; */
+  right: 110px;
+  padding: 0px 117px;
+  top: 116px;
+}
+.box .hidden-text p {
+  opacity: 0;
+  font-size: 24px;
+  color: #ffff;
+
+  transition: all 0.4s;
+}
+
+.box:hover p {
+  opacity: 1;
+}
+.box:hover img {
+  filter: blur(8px);
+  transition: filter 0.1s ease-in;
+}
+
+img.image-1 {
+  margin-left: -45px;
+}
+
+img.image-2 {
+  margin-left: -12px;
+}
+
+img.image-3 {
+  margin-left: -63px;
+}
+.hidden-text.text-2 {
+  margin-left: 114px;
+}
+.hidden-text.text-3 {
+  margin-left: 112px;
+  margin-bottom: 36px;
+}
+
+.box h1 {
+  margin-bottom: 30px;
+  text-align: center;
 }
