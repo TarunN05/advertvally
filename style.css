@@ -125,11 +125,11 @@ a:hover::after {
   top: 288px;
   right: 265px;
   padding: 50px;
-  font-size: 5rem;
+  font-size: 80px;
 }
 .btn {
   margin-left: 10px;
-  font-size: 1.3rem;
+  font-size: 20.8p;
   padding: 10px;
   border-radius: 10px;
   cursor: pointer;
@@ -144,7 +144,7 @@ a:hover::after {
 
 .heading > h2 {
   text-align: center;
-  font-size: 2rem;
+  font-size: 32px;
   text-transform: uppercase;
   letter-spacing: 6px;
   line-height: 2;
@@ -163,7 +163,7 @@ a:hover::after {
 
 .container .left-c {
   padding: 30px;
-  font-size: 1.5rem;
+  font-size: 24px;
   margin-top: 7px;
   line-height: 2;
   letter-spacing: 3px;
