@@ -163,7 +163,7 @@ a:hover::after {
 
 .container .left-c {
   padding: 30px;
-  font-size: 20px;
+  font-size: 22px;
   margin-top: -29px;
   line-height: 2;
   letter-spacing: 3px;
@@ -228,7 +228,7 @@ a:hover::after {
 }
 
 img.image-1 {
-  margin-left: -45px;
+  margin-left: -85px;
 }
 
 img.image-2 {
@@ -238,14 +238,16 @@ img.image-2 {
 img.image-3 {
   margin-left: -63px;
 }
+
+.hidden-text.text-1 {
+  margin-left: 103px;
+  margin-top: -38px;
+}
 .hidden-text.text-2 {
   margin-left: 183px;
   margin-top: -36px;
 }
-.hidden-text .text-1 {
-  margin-left: 173px;
-  margin-top: -64px;
-}
+
 .hidden-text.text-3 {
   margin-left: 163px;
   margin-top: -44px;
