@@ -125,7 +125,7 @@ a:hover::after {
   top: 288px;
   right: 265px;
   padding: 50px;
-  font-size: 80px;
+  font-size: 66px;
 }
 .btn {
   margin-left: 10px;
@@ -156,15 +156,15 @@ a:hover::after {
 }
 
 .container .right-c img {
-  height: 100%;
+  height: 90%;
   width: 100%;
   border-radius: 20px;
 }
 
 .container .left-c {
   padding: 30px;
-  font-size: 24px;
-  margin-top: 7px;
+  font-size: 20px;
+  margin-top: -29px;
   line-height: 2;
   letter-spacing: 3px;
 }
@@ -198,22 +198,22 @@ a:hover::after {
   margin-left: 100px;
 }
 .box img {
-  height: 450px;
+  height: 384px;
   position: absolute;
   border-radius: 40px;
-  width: 671px;
+  width: 574px;
 }
 
 .box .hidden-text {
   position: relative;
   /* padding: 0px 841px; */
   right: 110px;
-  padding: 0px 117px;
+
   top: 116px;
 }
 .box .hidden-text p {
   opacity: 0;
-  font-size: 24px;
+  font-size: 25px;
   color: #ffff;
 
   transition: all 0.4s;
@@ -239,14 +239,110 @@ img.image-3 {
   margin-left: -63px;
 }
 .hidden-text.text-2 {
-  margin-left: 114px;
+  margin-left: 183px;
+  margin-top: -36px;
+}
+.hidden-text .text-1 {
+  margin-left: 173px;
+  margin-top: -64px;
 }
 .hidden-text.text-3 {
-  margin-left: 112px;
-  margin-bottom: 36px;
+  margin-left: 163px;
+  margin-top: -44px;
 }
 
 .box h1 {
   margin-bottom: 30px;
   text-align: center;
+}
+
+/* -------------------------------[contact us form]------------------------------ */
+.contact {
+  background-color: #414a50;
+  color: #ffff;
+}
+.contact .heading h2 {
+  border-bottom: 2px solid #ffffff;
+}
+.contact .heading {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 22%;
+}
+
+.heading span {
+  margin: 0px 10px;
+}
+.container-2 {
+  display: flex;
+  justify-content: space-around;
+  height: 50vh;
+}
+h3 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  margin-top: 40px;
+}
+h5 {
+  font-size: 25px;
+  font-weight: 100;
+  margin-bottom: 50px;
+}
+
+form .input {
+  margin-bottom: 6px;
+  font-size: 15px;
+  border-radius: 6px;
+  padding: 10px;
+}
+.information > h1 {
+  margin-bottom: 40px;
+}
+
+.information {
+  margin-top: 40px;
+}
+.information .icons {
+  margin-right: 177px;
+}
+
+.social-icons::after {
+  content: "";
+  width: 25%;
+  height: 3px;
+  position: absolute;
+  right: 250px;
+  background-color: #ffff;
+}
+
+.social-icons {
+  font-size: 38px;
+  text-align: center;
+  cursor: pointer;
+}
+.social-icons span {
+  position: relative;
+  top: 20px;
+  right: 30px;
+  margin: 0px 10px;
+}
+
+.submit-btn {
+  width: 36%;
+  text-align: center;
+  position: relative;
+  top: 33px;
+  left: 144px;
+  font-size: 22px;
+  cursor: pointer;
+  background: transparent;
+  border-radius: 10px;
+  text-transform: uppercase;
+  border: 1px solid #ffff;
+  color: #fff;
+  padding: 10px 30px;
 }
