@@ -426,6 +426,9 @@ form .input {
     font-size: 4vw;
     font-weight: 100;
   }
+  form .submit-btn {
+    left: 170px;
+  }
 }
 
 @media screen and (max-width: 550px) {
@@ -511,5 +514,6 @@ form .input {
   form .submit-btn {
     padding: 10px 0px;
     left: 73px;
+    text-transform: capitalize;
   }
 }
