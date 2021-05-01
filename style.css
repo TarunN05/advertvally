@@ -378,10 +378,7 @@ form .input {
   section.choose-us {
     margin-left: 57px;
   }
-  .container .right-c img {
-    position: relative;
-    left: 19px;
-  }
+
   .services-image {
     flex-direction: column;
     width: 90%;
