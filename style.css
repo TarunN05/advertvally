@@ -122,10 +122,10 @@ a:hover::after {
 
 .main-heading {
   position: absolute;
-  top: 288px;
-  right: 265px;
+  top: 152px;
+  right: 140px;
   padding: 50px;
-  font-size: 66px;
+  font-size: 61px;
 }
 .btn {
   margin-left: 10px;
@@ -164,8 +164,7 @@ a:hover::after {
 .container .left-c {
   padding: 30px;
   font-size: 22px;
-  margin-top: -29px;
-  line-height: 2;
+  margin-top: -21px;
   letter-spacing: 3px;
 }
 
@@ -185,7 +184,8 @@ a:hover::after {
 
 .services-image {
   display: flex;
-  padding: 0px 50px;
+  justify-content: space-around;
+  /* padding: 0px 50px; */
 }
 
 .our-services .heading h2 {
@@ -193,30 +193,29 @@ a:hover::after {
 }
 .box {
   cursor: pointer;
-  display: inline-block;
-  height: 540px;
-  margin-left: 100px;
+  position: relative;
 }
 .box img {
-  height: 384px;
-  position: absolute;
+  height: 350px;
   border-radius: 40px;
-  width: 574px;
+  width: 454px;
+  margin-left: 9px;
 }
 
 .box .hidden-text {
-  position: relative;
+  position: absolute;
   /* padding: 0px 841px; */
-  right: 110px;
-
-  top: 116px;
+  /* right: 114px; */
+  bottom: 120px;
+  text-align: center;
 }
 .box .hidden-text p {
   opacity: 0;
-  font-size: 25px;
-  color: #ffff;
-
+  font-size: 20px;
+  color: #fefefe;
   transition: all 0.4s;
+  margin: -18px 63px;
+  /* margin-top: -31px; */
 }
 
 .box:hover p {
@@ -227,36 +226,36 @@ a:hover::after {
   transition: filter 0.1s ease-in;
 }
 
-img.image-1 {
-  margin-left: -85px;
+/* img.image-1 {
+  margin-left: -99px;
 }
 
 img.image-2 {
-  margin-left: -12px;
+  margin-left: -36px;
 }
 
 img.image-3 {
   margin-left: -63px;
-}
+} */
 
-.hidden-text.text-1 {
+/* .hidden-text.text-1 {
   margin-left: 103px;
-  margin-top: -38px;
+  margin-top: -12px;
 }
 .hidden-text.text-2 {
   margin-left: 183px;
-  margin-top: -36px;
+  margin-top: -24px;
 }
 
 .hidden-text.text-3 {
   margin-left: 163px;
-  margin-top: -44px;
-}
+  margin-top: -34px;
+} */
 
-.box h1 {
+/* .box h1 {
   margin-bottom: 30px;
   text-align: center;
-}
+} */
 
 /* -------------------------------[contact us form]------------------------------ */
 .contact {
@@ -282,7 +281,7 @@ form {
 .container-2 {
   display: flex;
   justify-content: space-around;
-  height: 50vh;
+  height: 60vh;
 }
 h3 {
   font-size: 30px;
@@ -338,7 +337,7 @@ form .input {
   text-align: center;
   position: relative;
   top: 33px;
-  left: 144px;
+  left: 118px;
   font-size: 22px;
   cursor: pointer;
   background: transparent;
@@ -346,5 +345,5 @@ form .input {
   text-transform: uppercase;
   border: 1px solid #ffff;
   color: #fff;
-  padding: 10px 30px;
+  padding: 10px 20px;
 }
