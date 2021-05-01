@@ -375,6 +375,7 @@ form .input {
   }
   .box .hidden-text p {
     font-size: 4vw;
+    margin: 0px;
   }
   .box .hidden-text {
     bottom: 117px;
@@ -460,9 +461,10 @@ form .input {
   }
   .box .hidden-text p {
     font-size: 4vw;
+    margin: 0px;
   }
   .box .hidden-text {
-    bottom: 40px;
+    bottom: 54px;
     left: 44px;
   }
   .box h1 {
@@ -478,7 +480,7 @@ form .input {
   .container-2 {
     flex-direction: column;
     align-items: center;
-    height: 88vh;
+    height: 95vh;
   }
   form {
     width: 62%;
