@@ -84,10 +84,10 @@ a:hover::after {
 
 /* -------------------[Menu Section]------------------------ */
 .menu {
-  background-image: url("./Images/back.jpg");
+  background-image: url("https://www.cumminsandwhite.com/wp-content/uploads/2017/03/Black-Desk-Background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 80vh;
+  height: 100vh;
   position: relative;
   top: -70px;
 }
@@ -100,6 +100,7 @@ a:hover::after {
   font-size: 61px;
   width: 100%;
   display: inline;
+  color: #fefefe;
 }
 .btn {
   margin-left: 10px;
@@ -325,17 +326,16 @@ form .input {
     content: none;
   }
 
-  .menu {
+  /* .menu {
     background-size: contain !important;
     height: 40vh;
-  }
+  } */
 
   .main-heading > h1 {
     padding: 0px;
-    left: 50%;
-    font-size: 5vw;
-    bottom: 50%;
-    transform: translate(-50%, -50%);
+    left: 10%;
+    top: 531px;
+    font-size: 9vw;
   }
   .container {
     flex-direction: column;
@@ -368,17 +368,15 @@ form .input {
 @media screen and (max-width: 550px) {
   .main-heading > h1 {
     padding: 0px;
-    left: 50%;
-    font-size: 5vw;
-    bottom: 13%;
-    top: 80px;
-    transform: translate(-80px, -50%);
+    left: 10%;
+    font-size: 11vw;
+    top: 292px;
   }
   .container .left-c p {
     font-size: 3vw;
   }
   .menu {
-    margin-bottom: -130px;
+    margin-bottom: -55px;
   }
   .choose-us .heading h2 {
     font-size: 8vw;
