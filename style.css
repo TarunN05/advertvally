@@ -3,6 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.heading {
+  font-family: "Poppins", sans-serif;
+}
 
 .header {
   display: flex;
@@ -11,6 +17,7 @@
   z-index: 999;
   position: relative;
   width: 100%;
+  font-family: "Alice", serif;
 }
 
 .nav-links {
@@ -21,8 +28,8 @@
   text-decoration: none;
   padding: 0px 10px;
   position: relative;
-
   margin: 0px 10px;
+  color: #ffff;
 }
 
 li {
@@ -30,9 +37,9 @@ li {
 }
 
 .nav-logo {
-  border-radius: 50%;
-  height: 60px;
-  margin-top: 2px;
+  margin-top: 16px;
+  margin-left: -29px;
+  border-radius: 10px;
 }
 
 /* a::after {
@@ -94,13 +101,13 @@ a:hover::after {
 
 .main-heading > h1 {
   position: relative;
-  top: 152px;
-  right: 140px;
-  padding: 50px;
-  font-size: 61px;
+  top: 385px;
+  left: 51%;
+  font-size: 5vw;
   width: 100%;
   display: inline;
   color: #fefefe;
+  font-family: "Poppins", sans-serif;
 }
 .btn {
   margin-left: 10px;
@@ -140,13 +147,13 @@ a:hover::after {
 
 .container .left-c {
   padding: 30px;
-  font-size: 22px;
+  font-size: 21px;
   margin-top: -21px;
   letter-spacing: 3px;
 }
 
 .container .left-c p {
-  font-size: 25px;
+  font-size: 23px;
 }
 
 .chooseus-points {
@@ -176,6 +183,10 @@ a:hover::after {
   cursor: pointer;
   position: relative;
 }
+.box h1 {
+  text-align: center;
+  margin-bottom: 21px;
+}
 .box img {
   height: 350px;
   border-radius: 40px;
@@ -187,7 +198,7 @@ a:hover::after {
   position: absolute;
   /* padding: 0px 841px; */
   /* right: 114px; */
-  bottom: 120px;
+  bottom: 80px;
   text-align: center;
 }
 .box .hidden-text p {
