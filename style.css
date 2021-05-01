@@ -483,7 +483,7 @@ form .input {
   .container-2 {
     flex-direction: column;
     align-items: center;
-    height: 95vh;
+    height: 100vh;
   }
   form {
     width: 62%;
