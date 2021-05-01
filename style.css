@@ -68,33 +68,6 @@ a:hover::after {
   transition: all 0.3s ease-in;
 }
 
-@media screen and (max-width: 850px) {
-  .burger {
-    display: block;
-  }
-
-  .nav-links {
-    position: absolute;
-    top: 0px;
-    background-color: aquamarine;
-    width: 100%;
-    height: 40vh;
-    z-index: -1;
-    transform: translateY(-200%);
-    transition: transform 0.3s ease-in-out;
-    flex-direction: column;
-  }
-  .nav-links li {
-    position: relative;
-    top: 75px;
-    margin-top: 20px;
-    text-align: center;
-  }
-  a::after {
-    content: none;
-  }
-}
-
 .nav-active {
   transform: translateY(0%);
 }
@@ -114,18 +87,19 @@ a:hover::after {
   background-image: url("./Images/back.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100%;
   height: 80vh;
   position: relative;
   top: -70px;
 }
 
-.main-heading {
-  position: absolute;
+.main-heading > h1 {
+  position: relative;
   top: 152px;
   right: 140px;
   padding: 50px;
   font-size: 61px;
+  width: 100%;
+  display: inline;
 }
 .btn {
   margin-left: 10px;
@@ -153,10 +127,12 @@ a:hover::after {
   display: flex;
   justify-content: space-around;
   padding: 50px;
+  align-items: center;
+  width: 90%;
 }
 
 .container .right-c img {
-  height: 90%;
+  height: auto;
   width: 100%;
   border-radius: 20px;
 }
@@ -166,6 +142,10 @@ a:hover::after {
   font-size: 22px;
   margin-top: -21px;
   letter-spacing: 3px;
+}
+
+.container .left-c p {
+  font-size: 25px;
 }
 
 .chooseus-points {
@@ -226,41 +206,11 @@ a:hover::after {
   transition: filter 0.1s ease-in;
 }
 
-/* img.image-1 {
-  margin-left: -99px;
-}
-
-img.image-2 {
-  margin-left: -36px;
-}
-
-img.image-3 {
-  margin-left: -63px;
-} */
-
-/* .hidden-text.text-1 {
-  margin-left: 103px;
-  margin-top: -12px;
-}
-.hidden-text.text-2 {
-  margin-left: 183px;
-  margin-top: -24px;
-}
-
-.hidden-text.text-3 {
-  margin-left: 163px;
-  margin-top: -34px;
-} */
-
-/* .box h1 {
-  margin-bottom: 30px;
-  text-align: center;
-} */
-
 /* -------------------------------[contact us form]------------------------------ */
 .contact {
   background-color: #414a50;
   color: #ffff;
+  margin-top: 40px;
 }
 .contact .heading h2 {
   border-bottom: 2px solid #ffffff;
@@ -346,4 +296,90 @@ form .input {
   border: 1px solid #ffff;
   color: #fff;
   padding: 10px 20px;
+}
+
+/*-------------------------------------------[Media Query]------------------------------------------  */
+@media screen and (max-width: 1100px) {
+  .burger {
+    display: block;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 0px;
+    background-color: aquamarine;
+    width: 100%;
+    height: 40vh;
+    z-index: -1;
+    transform: translateY(-200%);
+    transition: transform 0.3s ease-in-out;
+    flex-direction: column;
+  }
+  .nav-links li {
+    position: relative;
+    top: 75px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  a::after {
+    content: none;
+  }
+
+  .menu {
+    background-size: contain !important;
+    height: 40vh;
+  }
+
+  .main-heading > h1 {
+    padding: 0px;
+    left: 50%;
+    font-size: 5vw;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .container {
+    flex-direction: column;
+    padding: 0px;
+  }
+  .container .left-c {
+    padding: 0px;
+    font-size: 3vw;
+    /* margin-top: -21px; */
+    /* align-items: center; */
+    margin-bottom: 29px;
+    letter-spacing: 1px;
+    margin-left: 30px;
+  }
+  .container .left-c p span {
+    padding: 0px;
+  }
+  .heading > h2 {
+    margin-bottom: 25px;
+  }
+  section.choose-us {
+    margin-left: 57px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .main-heading > h1 {
+    padding: 0px;
+    left: 50%;
+    font-size: 5vw;
+    bottom: 13%;
+    top: 80px;
+    transform: translate(-80px, -50%);
+  }
+  .container .left-c p {
+    font-size: 3vw;
+  }
+  .menu {
+    margin-bottom: -130px;
+  }
+  .choose-us .heading h2 {
+    font-size: 8vw;
+  }
+  section.choose-us {
+    margin-left: 0px;
+  }
 }
