@@ -101,7 +101,7 @@ a:hover::after {
 
 .main-heading > h1 {
   position: relative;
-  top: 385px;
+  top: 286px;
   left: 51%;
   font-size: 5vw;
   width: 100%;
@@ -136,7 +136,7 @@ a:hover::after {
   justify-content: space-around;
   padding: 50px;
   align-items: center;
-  width: 90%;
+  width: 100%;
 }
 
 .container .right-c img {
@@ -147,13 +147,13 @@ a:hover::after {
 
 .container .left-c {
   padding: 30px;
-  font-size: 21px;
+  font-size: 20px;
   margin-top: -21px;
   letter-spacing: 3px;
 }
 
 .container .left-c p {
-  font-size: 23px;
+  font-size: 20px;
 }
 
 .chooseus-points {
