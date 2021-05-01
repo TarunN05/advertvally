@@ -244,7 +244,7 @@ form {
 .container-2 {
   display: flex;
   justify-content: space-around;
-  height: 60vh;
+  height: 70vh;
 }
 h3 {
   font-size: 30px;
