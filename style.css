@@ -35,7 +35,7 @@ li {
   margin-top: 2px;
 }
 
-a::after {
+/* a::after {
   content: "";
   position: absolute;
   left: 0px;
@@ -45,7 +45,7 @@ a::after {
   background-color: black;
   margin: 2px;
   transition: width 0.3s ease-in;
-}
+} */
 
 a:hover::after {
   width: 100%;
@@ -281,6 +281,12 @@ form .input {
   top: 20px;
   right: 30px;
   margin: 0px 10px;
+}
+.social-icons span a {
+  color: #fff;
+}
+.social-icons span a:hover {
+  color: #d3d3d3;
 }
 
 .submit-btn {
