@@ -359,6 +359,10 @@ form .input {
   section.choose-us {
     margin-left: 57px;
   }
+  .container .right-c img {
+    position: relative;
+    left: 19px;
+  }
 }
 
 @media screen and (max-width: 550px) {
