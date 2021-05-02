@@ -138,11 +138,12 @@ a:hover::after {
   padding: 50px;
   align-items: center;
   width: 100%;
+  text-align: center;
 }
 
 .container .right-c img {
   height: auto;
-  width: 100%;
+  width: 62%;
   border-radius: 20px;
 }
 
@@ -150,11 +151,11 @@ a:hover::after {
   padding: 30px;
   font-size: 19px;
   margin-top: -21px;
-  letter-spacing: 3px;
 }
 
 .chooseus-points {
   margin-top: 36px;
+  text-align: start;
 }
 .chooseus-points li {
   list-style: disc;
@@ -396,8 +397,8 @@ form .input {
     /* margin-top: -21px; */
     /* align-items: center; */
     margin-bottom: 29px;
-    letter-spacing: 1px;
     order: 2;
+    margin-left: -40px;
   }
   .container .left-c p span {
     padding: 0px;
@@ -496,6 +497,10 @@ form .input {
   }
   .achievements-info h2 {
     font-size: 3vw;
+  }
+  ul.chooseus-points {
+    margin-left: 26px;
+    text-align: center;
   }
 }
 
