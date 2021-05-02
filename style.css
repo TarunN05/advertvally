@@ -162,7 +162,6 @@ a:hover::after {
 }
 
 .container .left-c p span {
-  padding: 50px;
   margin-bottom: 10px;
 }
 
@@ -417,15 +416,15 @@ form .input {
   .box img {
     width: 100%;
     height: auto;
-    margin-left: 65px;
+    margin-left: 80px;
   }
   .box .hidden-text p {
     font-size: 4vw;
     margin: 0px;
   }
   .box .hidden-text {
-    bottom: 62px;
-    left: 55px;
+    bottom: 31px;
+    left: 98px;
   }
   .box h1 {
     text-align: center;
@@ -534,15 +533,15 @@ form .input {
   .box img {
     width: 100%;
     height: auto;
-    margin-left: 22px;
+    margin-left: 36px;
   }
   .box .hidden-text p {
     font-size: 4vw;
     margin: 0px;
   }
   .box .hidden-text {
-    bottom: 14px;
-    left: 44px;
+    bottom: 13px;
+    left: 51px;
   }
   .box h1 {
     text-align: center;
