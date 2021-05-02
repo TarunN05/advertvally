@@ -222,7 +222,7 @@ section.our-services {
 /* ----------------------------------[Achieements section]----------------------------- */
 .achievements-images img {
   height: 390px;
-  margin: 35px;
+  margin: 35px 0px;
   border-radius: 25px;
 }
 .achievements-images {
@@ -593,5 +593,8 @@ form .input {
   /* --------------- */
   .achievements-info h2 {
     font-size: 4vw;
+  }
+  .container .left-c {
+    margin-left: 0px;
   }
 }
