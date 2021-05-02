@@ -131,6 +131,32 @@
         </div>
     </section>
 
+
+    <!-- ------------------------------------[Achievements Section]--------------------------------------- -->
+
+    <section class="achievements">
+        <div class="heading">
+            <h2>Achievements</h2>
+        </div>
+
+        <div class="achievements-info">
+             <h2>Here are my some certificates thats are given by google to telling that I am a expert of google ads and verified by
+            google.</h2>
+        </div>
+
+        <div class="achievements-images">
+            <div class="img img-1">
+                <img src="./Images/google-display.jpeg" alt="achievements images">
+            </div>
+            <div class="img img-2">
+                <img src="./Images/google-search.jpeg" alt="achievements images">
+            </div>
+            <div class="img img-3">
+                <img src="./Images/google-video.jpeg" alt="achievements images">
+            </div>
+        </div>
+    </section>
+
     <!-- ------------------------------[contact us section]------------------------------- -->
     <section class="contact">
         <div class="heading">
@@ -145,15 +171,16 @@
        
         <form action="javascript:sendmail()" method="post">
             <!-- <label for="name">Name:</label> -->
-            <input type="text" class="input name" id="name" placeholder="Your Name">
+            <input type="text" class="input name" id="name" placeholder="Your Name" required>
             <!-- <label for="name">Phone no:</label> -->
             <input type="number" class="input phone" id="phone" placeholder="Number">
             <!-- <label for="name">Email:</label> -->
-            <input type="email" class="input email" id="email" placeholder="Email">
+            <input type="email" class="input email" id="email" placeholder="Email" required>
              <!-- <label for="message">Message:</label> -->
-            <textarea  id="message" cols="30" rows="10" class="message input" placeholder="Message"></textarea>
+            <textarea  id="message" cols="30" rows="10" class="message input" placeholder="Message" required></textarea>
 
-            <button type="submit" onclick="sendMail()" class="submit-btn">Submit</button>
+            <button type="submit"  class="submit-btn">Submit</button>
+            <span class="mail-btn" id="mail-btn"></span>
         </form>
         
 

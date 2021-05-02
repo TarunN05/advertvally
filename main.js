@@ -1,5 +1,6 @@
 const burger = document.getElementsByClassName("burger")[0];
 const nav = document.getElementsByClassName("nav-links")[0];
+const mailColor = document.getElementById("mail-btn");
 
 burger.addEventListener("click", () => {
   nav.classList.toggle("nav-active");
@@ -28,15 +29,48 @@ burger.addEventListener("click", () => {
 				Body: Body
 			}).then(
 				message =>{
-					//console.log (message);
-					if(message=='OK'){
-					alert('Your mail has been send. Thank you for connecting.');
-					}
-					else{
-						console.error (message);
-						alert('There is error at sending message. ')
+
+					// successfulSent()
+
+
+	        if(message=='OK'){
+                mailColor.classList.toggle("success");
+				mailColor.innerHTML = "Mail Sent successful";
+			}
+			if(message != 'OK') {
+				mailColor.classList.toggle('error');
+				mailColor.innerHTML = "Mail can't Sent";
+			}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					// console.log (message);
+					// if(message=='OK'){
+					// alert('Your mail has been send. Thank you for connecting.');
+					// }
+					// else{
+					// 	console.error (message);
+					// 	alert('There is error at sending message. ')
 						
-					}
+					// }
 
 				}
 			);
@@ -44,3 +78,6 @@ burger.addEventListener("click", () => {
 
 
 		}
+
+	
+
