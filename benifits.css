@@ -1,0 +1,76 @@
+html {
+  background: #4997af;
+  margin-bottom: 10px;
+}
+
+.content {
+  box-shadow: -12px 5px 69px 7px rgba(105, 105, 105, 0.69);
+  -webkit-box-shadow: -12px 5px 69px 7px rgba(105, 105, 105, 0.69);
+  -moz-box-shadow: -12px 5px 69px 7px rgba(105, 105, 105, 0.69);
+  position: absolute;
+  top: 15%;
+  left: 16%;
+  background-color: #fefefe;
+  padding: 63px;
+  width: 75%;
+  border-radius: 50px;
+  font-family: "Baloo Bhai 2", cursive;
+}
+
+ul li {
+  list-style: disc;
+  font-size: 23px;
+  padding: 7px;
+  margin-left: 42px;
+}
+p {
+  font-size: 27px;
+  padding: 21px;
+}
+h3 {
+  font-size: 27px;
+  font-weight: 500;
+  padding: 10px;
+  font-weight: 700;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+@media screen and (max-width: 1100px) {
+  h3 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 25px;
+  }
+  ul li {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .content {
+    width: 94%;
+    left: 3%;
+    font-size: 17px;
+    padding: 0px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 19px;
+  }
+  ul li {
+    font-size: 18px;
+    padding: 0px;
+    margin-left: 27px;
+  }
+}
