@@ -16,7 +16,7 @@ body {
   justify-content: space-around;
   height: 70px;
   z-index: 999;
-  position: relative;
+  position: absolute;
   width: 100%;
   font-family: "Alice", serif;
 }

@@ -2,6 +2,7 @@ const burger = document.getElementsByClassName("burger")[0];
 const nav = document.getElementsByClassName("nav-links")[0];
 const mailColor = document.getElementById("mail-btn");
 
+
 burger.addEventListener("click", () => {
   nav.classList.toggle("nav-active");
   burger.classList.toggle("toogle");
@@ -42,26 +43,6 @@ burger.addEventListener("click", () => {
 				mailColor.innerHTML = "Mail can't Sent";
 			}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 					// console.log (message);
 					// if(message=='OK'){
 					// alert('Your mail has been send. Thank you for connecting.');
@@ -78,6 +59,21 @@ burger.addEventListener("click", () => {
 
 
 		}
+
+
+
+const submitBtn = document.querySelector('.submit-btn');
+const inputs = document.querySelectorAll(".input");
+
+
+submitBtn.addEventListener("click" ,()=>{
+	setTimeout(()=>{
+
+		inputs.forEach(input => input.value = '');
+	}, 2000);
+});
+
+
 
 	
 
