@@ -33,6 +33,9 @@
     left: 40px;
     top: 26%;
   }
+  .about-container {
+    overflow: hidden;
+  }
 }
 
 @media screen and (max-width: 550px) {
@@ -45,5 +48,8 @@
     font-size: 21px;
     border: 10px solid;
     padding: 21px;
+  }
+  .about-container {
+    overflow: hidden;
   }
 }
