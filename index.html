@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>10x Business Growth</title>
     <link rel="stylesheet" href="style.css">
+
+    <!--  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
     <!-- font family -->
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link
@@ -58,12 +63,12 @@
 
     <!-- ------------[Why choos us]---------------------- -->
 
-    <section class="choose-us">
+    <section class="choose-us" >
         <div class="heading">
             <h2>Why Choose us</h2>
         </div>
 
-        <div class="container">
+        <div class="container" data-aos="fade-up">
             <div class="left-c">
                   <p>
                    <span> We’re certainly not the only Google Advertising marketing company out there, but we strive to
@@ -82,7 +87,7 @@
                     </ul>
               </p>
             </div>
-            <div class="right-c">
+            <div class="right-c" data-aos="fade-up">
                      <img src="./Images/choose-us.jpg" alt="">
             </div>
         </div>
@@ -92,13 +97,13 @@
 
 
     <!-- -----------------------------------------------[our services]--------------------------------------------- -->
-    <section class="our-services" id="our-services">
+    <section class="our-services" id="our-services" >
         <div class="heading">
             <h2>our services</h2>
         </div>
 
         <div class="services-image">
-          <div class="box">
+          <div class="box" data-aos="fade-up">
               <h1>GOOGLE SEARCH AD</h1>
               <img  class="image-1" src="./Images/chose-4.jpeg" alt="">
               <div class="hidden-text text-1">
@@ -109,7 +114,7 @@
                 action.</p>
               </div>
           </div>
-          <div class="box">
+          <div class="box" data-aos="fade-up">
               <h1>GOOGLE DISPLAY AD</h1>
               <img class="image-2" src="./Images/use-this.jpg" alt="">
               <div class="hidden-text text-2">
@@ -118,7 +123,7 @@
                 Use a Display campaign to increase exposure and reach audiences with specific interests across the web.</p>
               </div>
           </div>
-          <div class="box">
+          <div class="box" data-aos="fade-up">
               <h1>GOOGLE VIDEO AD</h1>
               <img  class="image-3" src="./Images/choose-4.jpg" alt="">
               <div class="hidden-text text-3">
@@ -135,7 +140,7 @@
 
     <!-- ------------------------------------[Achievements Section]--------------------------------------- -->
 
-    <section class="achievements" id="achievements">
+    <section class="achievements" id="achievements" >
         <div class="heading">
             <h2>Achievements</h2>
         </div>
@@ -146,20 +151,20 @@
         </div>
 
         <div class="achievements-images">
-            <div class="img img-1">
+            <div class="img img-1" data-aos="fade-up">
                 <img src="./Images/google-display.jpeg" alt="achievements images">
             </div>
-            <div class="img img-2">
+            <div class="img img-2" data-aos="fade-up">
                 <img src="./Images/google-search.jpeg" alt="achievements images">
             </div>
-            <div class="img img-3">
+            <div class="img img-3" data-aos="fade-up">
                 <img src="./Images/google-video.jpeg" alt="achievements images">
             </div>
         </div>
     </section>
 
     <!-- ------------------------------[contact us section]------------------------------- -->
-    <section class="contact" id="contact">
+    <section class="contact" id="contact" data-aos="fade-up">
         <div class="heading">
             <h2>Contact </h2>
             <h3>We'd <span><i class="far fa-heart"></i></span> to help</h3>
@@ -202,8 +207,15 @@
 
  
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://smtpjs.com/v3/smtp.js">
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            delay: 200
+        });
 </script>
+
+
     <script src="./main.js"></script>
 </body>
 </html>
