@@ -18,7 +18,7 @@ html {
   display: flex;
   justify-content: space-around;
   height: 70px;
-  z-index: 10;
+  z-index: 999;
   position: absolute;
   width: 100%;
   font-family: "Alice", serif;
