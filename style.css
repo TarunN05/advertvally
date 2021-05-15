@@ -94,7 +94,7 @@ a:hover::after {
   background-image: url("https://www.cumminsandwhite.com/wp-content/uploads/2017/03/Black-Desk-Background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 110vh;
   position: relative;
   top: -70px;
 }
