@@ -485,6 +485,12 @@ form .input {
   section.our-services {
     padding: 0px;
   }
+    .container .right-c img {
+    height: 41vh;
+    width: 96vw;
+    border-radius: 20px;
+    margin-left: -55px;
+  }
 
   /* ----------------container section ---------------------------------- */
   .container-2 {
@@ -569,6 +575,7 @@ form .input {
     height: 65vw;
     width: 97vw;
     border-radius: 20px;
+    margin-left: 0px;
 }
   .menu {
     margin-bottom: -55px;
