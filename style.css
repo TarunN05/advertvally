@@ -565,6 +565,11 @@ form .input {
     margin-top: 39px;
     text-align: center;
   }
+  .container .right-c img {
+    height: 65vw;
+    width: 97vw;
+    border-radius: 20px;
+}
   .menu {
     margin-bottom: -55px;
   }
