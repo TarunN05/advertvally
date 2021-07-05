@@ -120,4 +120,9 @@ select#item-options {
   h3 {
     font-size: 23px;
   }
+   .whitespace {
+    width: 97%;
+    position: relative;
+    right: 72px;
+  }
 }
