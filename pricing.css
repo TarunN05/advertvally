@@ -6,9 +6,9 @@
 body {
   background-color: #f0f6f6;
 }
-h1 {
+
+.video-section {
   text-align: center;
-  margin-bottom: 13px;
 }
 
 .whitespace {
@@ -92,10 +92,6 @@ h3 {
   }
 }
 
-iframe {
-  position: relative;
-  left: 32%;
-}
 
 .last-container {
   text-align: center;
