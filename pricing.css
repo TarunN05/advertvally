@@ -5,10 +5,7 @@
 }
 body {
   background-color: #f0f6f6;
-}
-
-.video-section {
-  text-align: center;
+  overflow: hidden;
 }
 
 .whitespace {
@@ -34,10 +31,6 @@ h3 {
   text-transform: uppercase;
   letter-spacing: 7px;
   margin-bottom: 13px;
-}
-
-* {
-  box-sizing: border-box;
 }
 
 .columns {
@@ -85,13 +78,17 @@ h3 {
   text-decoration: none;
   font-size: 18px;
 }
+.video-section {
+  text-align: center;
+}
+video-section iframe {
+}
 
 @media only screen and (max-width: 600px) {
   .columns {
     width: 100%;
   }
 }
-
 
 .last-container {
   text-align: center;
@@ -116,7 +113,7 @@ select#item-options {
   h3 {
     font-size: 23px;
   }
-   .whitespace {
+  .whitespace {
     width: 97%;
     position: relative;
     right: 72px;
